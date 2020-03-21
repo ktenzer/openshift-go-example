@@ -19,7 +19,7 @@ COPY . /go/src/github.com/openshift-go-example
 
 RUN $GOBIN/dep ensure
 
-RUN go install openshift-go-example/hello
+RUN go install github.com/openshift-go-example/hello
 
 RUN chown -R 1001:0 /app && \
     chmod -R 775 /app
