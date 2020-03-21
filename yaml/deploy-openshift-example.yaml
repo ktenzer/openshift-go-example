@@ -4,7 +4,7 @@ metadata:
   annotations:
     description: "A Golang hello-world app"
   creationTimestamp: null
-  name: fossul-framework
+  name: openshift-go-example
 objects:     
 - apiVersion: v1
   kind: Service
